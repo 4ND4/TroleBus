@@ -77,9 +77,11 @@ public class GrafosTroleBus extends JApplet {
    	   
    	int ImageWidth = 0;
    	int ImageHeight = 0;
+
+    //version test
    	
    	/**
-   	 * Configuración
+   	 * Configuraciï¿½n
    	 */   	
    	
    	private int MonitorWidth = 1200;
@@ -122,7 +124,7 @@ public class GrafosTroleBus extends JApplet {
         map.put("P37", new String[] {"-0.1978432", 	"-78.495563"});	//P37 La Colon N-S
         map.put("P38", new String[] {"-0.1921587",	"-78.493445"});	//P38 Cuero y Caicedo S-N
         map.put("P39", new String[] {"-0.1915098",	"-78.493001"});	//P39 Cuero y Caicedo N-S                        
-        map.put("P40", new String[] {"-0.1889467",	"-78.492149"});	//P40 Mariana de Jesús S-N
+        map.put("P40", new String[] {"-0.1889467",	"-78.492149"});	//P40 Mariana de Jesï¿½s S-N
         map.put("P41", new String[] {"-0.1875567",	"-78.491303"});	//P41 Mariana de Jesus N-S
         map.put("P42", new String[] {"-0.1853693",	"-78.490878"});	//P42 El Floron S-N
         map.put("P43", new String[] {"-0.1846687",	"-78.490403"});	//P43 El Floron N-S        
@@ -132,7 +134,7 @@ public class GrafosTroleBus extends JApplet {
         map.put("P47", new String[] {"-0.1780172",	"-78.488621"});	//P47 Estadio N-S
         map.put("P48", new String[] {"-0.172087", "-78.487589"});	//P48 La Y S-N
         map.put("P49", new String[] {"-0.1713146",	"-78.487277"});	//P49 La Y N-S        
-        map.put("LA Y", new String[] {"-0.1635504", "-78.485374"});	//Estación La Y                              
+        map.put("LA Y", new String[] {"-0.1635504", "-78.485374"});	//Estaciï¿½n La Y                              
         
    		nodoList = new ArrayList<String>(map.keySet());
 
@@ -254,7 +256,6 @@ public class GrafosTroleBus extends JApplet {
     
     /**
      * create some vertices
-     * @param count how many to create
      * @return the Vertices in an array
      */
     private void createVertices() {
@@ -265,7 +266,6 @@ public class GrafosTroleBus extends JApplet {
 
     /**
      * create edges for this demo graph
-     * @param v an array of Vertices to connect
      */
     void createEdges() {
      	
