@@ -22,3 +22,4 @@ CuadradosVerticales  	(Cantidad de cuadrados verticales)
 
 
 Autor: Santiago Anda
+Test IntelliJ
