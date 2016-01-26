@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="jung2-2_0_1-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jung2-2_0_1-sources/jung-api-2.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jung2-2_0_1-sources/jung-jai-samples-2.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jung2-2_0_1-sources/jung-3d-2.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jung2-2_0_1-sources/jung-samples-2.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jung2-2_0_1-sources/jung-algorithms-2.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jung2-2_0_1-sources/jung-jai-2.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jung2-2_0_1-sources/jung-visualization-2.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jung2-2_0_1-sources/jung-io-2.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jung2-2_0_1-sources/jung-graph-impl-2.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jung2-2_0_1-sources/jung-3d-demos-2.0.1-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
