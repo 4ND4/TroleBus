@@ -49,7 +49,9 @@ import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
 import edu.uci.ics.jung.visualization.renderers.GradientVertexRenderer;
 import edu.uci.ics.jung.visualization.renderers.Renderer;
 import edu.uci.ics.jung.visualization.renderers.BasicVertexLabelRenderer.InsidePositioner;
-//Hello guys
+
+//@yakubu please no more changes to file.
+
 /**
  * Shows a graph overlaid on a world map image.
  * Scaling of the graph also scales the image background.
