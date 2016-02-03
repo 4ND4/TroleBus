@@ -6,4 +6,8 @@ public class testClass {
     //this is a test
     // test2
 
+    public int a()
+    {
+        return 10;
+    }
 }
