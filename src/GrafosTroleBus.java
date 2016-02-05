@@ -9,30 +9,6 @@
  * 
  */
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Point2D;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import javax.swing.ImageIcon;
-import javax.swing.JApplet;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-
-import org.apache.commons.collections15.Transformer;
-import org.apache.commons.collections15.functors.ChainedTransformer;
-
 import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.algorithms.layout.StaticLayout;
 import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
@@ -46,10 +22,23 @@ import edu.uci.ics.jung.visualization.control.CrossoverScalingControl;
 import edu.uci.ics.jung.visualization.control.DefaultModalGraphMouse;
 import edu.uci.ics.jung.visualization.control.ScalingControl;
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
+import edu.uci.ics.jung.visualization.renderers.BasicVertexLabelRenderer.InsidePositioner;
 import edu.uci.ics.jung.visualization.renderers.GradientVertexRenderer;
 import edu.uci.ics.jung.visualization.renderers.Renderer;
-import edu.uci.ics.jung.visualization.renderers.BasicVertexLabelRenderer.InsidePositioner;
-//Rawan
+import org.apache.commons.collections15.Transformer;
+import org.apache.commons.collections15.functors.ChainedTransformer;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.Point2D;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 //@yakubu please no more changes to file.
 
 /**
@@ -87,7 +76,8 @@ public class GrafosTroleBus extends JApplet {
    	/**
    	 * Configuraci�n
    	 */   	
-   	
+   	//jia
+
    	private int MonitorWidth = 1200;
    	private int MonitorHeight = 600;   	
    	private static double OrigenLatitude = -0.225;
